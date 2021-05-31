@@ -5,7 +5,7 @@ $(document).ready(function(){
         var cityInput = $("#placeInput").val();
         var stateInput = $("#stateInput").val().toUpperCase(); 
     
-        $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + cityInput + "&" + stateInput + "&units=imperial&appid=df4171d9f3c37b69cda129894f96f1bf", function(data){
+        $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + cityInput + "&" + stateInput + "&units=imperial&appid=e15b46e85c3be8b2d2f78d0d521d1a47", function(data){
         //console.log(data);
     
         var icon = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
